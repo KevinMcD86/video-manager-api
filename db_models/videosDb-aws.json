@@ -1,0 +1,73 @@
+{
+    "tv_shows" : [
+        {
+            "PutRequest" : {
+                "Item" : {
+                    "title" : {"S" : "The Big Bang Theory"},
+                    "description" : {"S" : "Nerds discover pretty neighbor"},
+                    "episodes" : {
+                        "L" : [
+                            {
+                                "M" : {
+                                    "season" : {"N" : "1"},
+                                    "episode" : {"N" : "1"},
+                                    "title" : {"S" : "Pilot"},
+                                    "description" : {"S" : "This is the pilot episode"},
+                                    "file" : {"S" : "bbts001e001.mp4"}
+                                }
+                            },
+                            {
+                                "M" : {
+                                    "season" : {"N" : "1"},
+                                    "episode" : {"N" : "2"},
+                                    "title" : {"S" : "ep 2"},
+                                    "description" : {"S" : "ep 2"},
+                                    "file" : {"S" : "bbts001e002.mp4"}
+                                }
+                            },
+                            {
+                                "M" : {
+                                    "season" : {"N" : "1"},
+                                    "episode" : {"N" : "3"},
+                                    "title" : {"S" : "ep 3"},
+                                    "description" : {"S" : "ep 3"},
+                                    "file" : {"S" : "bbts001e003.mp4"}
+                                }
+                            },
+                            {
+                                "M" : {
+                                    "season" : {"N" : "1"},
+                                    "episode" : {"N" : "4"},
+                                    "title" : {"S" : "ep 4"},
+                                    "description" : {"S" : "ep 4"},
+                                    "file" : {"S" : "bbts001e004.mp4"}
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest" : {
+                "Item" : {
+                    "title" : {"S" : "Weird Bunny"},
+                    "description" : {"S" : "Weird Bunny Clip"},
+                    "episodes" : { 
+                        "L" : [
+                            {
+                                "M" : {
+                                    "season" : {"N" : "1"},
+                                    "episode" : {"N" : "1"},
+                                    "title" : {"S" : "Pilot"},
+                                    "description" : {"S" : "Pilot"},
+                                    "file" : {"S" : "mov_bbb.mp4"}
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+} 

@@ -1,0 +1,56 @@
+{
+    "tvEpisodes" : [
+        {
+            "PutRequest" : {
+                "Item" : {
+                    "_id" : {"S" : "1"},
+                    "season" : {"N" : "1"},
+                    "episode" : {"N" : "1"},
+                    "title" : {"S" : "Pilot"},
+                    "description" : {"S" : "This is the pilot episode"},
+                    "file" : {"S" : "bbts001e001.mp4"},
+                    "series_id" : {"S" : "1"}
+                }
+            }
+        },
+        {
+            "PutRequest" : {
+                "Item" : {
+                    "_id" : {"S" : "2"},
+                    "season" : {"N" : "1"},
+                    "episode" : {"N" : "2"},
+                    "title" : {"S" : "ep 2"},
+                    "description" : {"S" : "ep 2"},
+                    "file" : {"S" : "bbts001e002.mp4"},
+                    "series_id" : {"S" : "1"}
+                }
+            }
+        },
+        {
+            "PutRequest" : {
+                "Item" : {
+                    "_id" : {"S" : "3"},
+                    "season" : {"N" : "1"},
+                    "episode" : {"N" : "3"},
+                    "title" : {"S" : "ep 3"},
+                    "description" : {"S" : "ep 3"},
+                    "file" : {"S" : "bbts001e003.mp4"},
+                    "series_id" : {"S" : "1"}
+                }
+            }
+        },
+        {
+            "PutRequest" : {
+                "Item" : {
+                    "_id" : {"S" : "4"},
+                    "season" : {"N" : "1"},
+                    "episode" : {"N" : "4"},
+                    "title" : {"S" : "ep 4"},
+                    "description" : {"S" : "ep 4"},
+                    "file" : {"S" : "bbts001e004.mp4"},
+                    "series_id" : {"S" : "1"}
+                }
+            }
+        }
+    ]
+} 

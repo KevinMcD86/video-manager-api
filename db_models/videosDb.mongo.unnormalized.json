@@ -1,0 +1,51 @@
+[
+    {
+        "title" : "The Big Bang Theory",
+        "description" : "Nerds discover pretty neighbor",
+        "episodes" : 
+        [
+            {
+                "season" : 1,
+                "episode" : 1,
+                "title" : "Pilot",
+                "description" : "This is the pilot episode",
+                "file" : "bbts001e001.mp4"
+            },
+            {
+                "season" : 1,
+                "episode" : 2,
+                "title" : "ep 2",
+                "description" : "ep 2",
+                "file" : "bbts001e002.m4v"
+            },
+            {
+                "season" : 1,
+                "episode" : 3,
+                "title" : "ep 3",
+                "description" : "ep 3",
+                "file" : "bbts001e003.m4v"
+            },
+            {
+                "season" : 1,
+                "episode" : 4,
+                "title" : "ep 4",
+                "description" : "ep 4",
+                "file" : "bbts001e004.m4v"
+            }
+        ]
+    },
+    {
+        "title" : "Weird Bunny",
+        "description" : "Wierd Bunny Clip",
+        "episodes" : 
+        [
+            {
+                "season" : 1,
+                "episode" : 1,
+                "title" : "Pilot",
+                "description" : "This is the pilot episode",
+                "file" : "mov_bbb.mp4"
+            }
+        ]
+    }  
+]

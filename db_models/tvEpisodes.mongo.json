@@ -1,0 +1,34 @@
+[
+    {
+        "season" : 1,
+        "episode" : 1,
+        "title" : "Pilot",
+        "description" : "This is the pilot episode",
+        "file" : "bbts001e001.mp4",
+        "series_id" : "1"
+    },
+    {
+        "season" : 1,
+        "episode" : 2,
+        "title" : "ep 2",
+        "description" : "ep 2",
+        "file" : "bbts001e002.mp4",
+        "series_id" : "1"
+    },
+    {
+        "season" : 1,
+        "episode" : 3,
+        "title" : "ep 3",
+        "description" : "ep 3",
+        "file" : "bbts001e003.mp4",
+        "series_id" : "1"
+    },
+    {
+        "season" : 1,
+        "episode" : 4,
+        "title" : "ep 4",
+        "description" : "ep 4",
+        "file" : "bbts001e004.mp4",
+        "series_id" : "1"
+    }
+]

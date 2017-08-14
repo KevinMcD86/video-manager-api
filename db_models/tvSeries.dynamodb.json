@@ -1,0 +1,13 @@
+{
+    "tvSeries" : [
+        {
+            "PutRequest" : {
+                "Item" : {
+                    "_id" : {"S" : "1"},
+                    "title" : {"S" : "The Big Bang Theory"},
+                    "description" : {"S" : "Nerds discover pretty neighbor"}
+                }
+            }
+        }
+    ]
+} 

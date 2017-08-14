@@ -1,0 +1,24 @@
+{
+    "movies" : [
+        {
+            "PutRequest" : {
+                "Item" : {
+                    "_id" : {"S" : "1"},
+                    "title" : {"S" : "Spirited Away"},
+                    "description" : {"S" : "Best movie ever"},
+                    "file" : {"S" : "SpiritedAway.mp4"}
+                }
+            }
+        },
+        {
+            "PutRequest" : {
+                "Item" : {
+                    "_id" : {"S" : "2"},
+                    "title" : {"S" : "Weird Bunny"},
+                    "description" : {"S" : "Weird Bunny clip"},
+                    "file" : {"S" : "mov_bbb.mp4"}
+                }
+            }
+        }
+    ]
+}

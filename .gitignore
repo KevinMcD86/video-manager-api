@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules/
+
+# Visual Studio Code
+.vscode/
+
+# JS and JS Map files
+*.js
+*.js.map
